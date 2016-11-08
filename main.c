@@ -23,7 +23,7 @@
 int main()
 {
 	int dice,sides,total,roll;
-	char * line_in;
+	char line_in[100];
 	srand(time(NULL));
 	while
 	(
